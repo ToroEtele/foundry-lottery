@@ -90,3 +90,10 @@ Custom errors must be prefixed with the name of the contract.
 ### Events:
 
 Events can have indexed and non-indexed parameters. They can have maximum 3 indexed parameters which are also known as topics. Indexed parameters are searchable.
+
+### Chainlink VRFv2:
+
+In order to send a request to Chainlink, we need a coordinator.
+With the requestRandomWords we can send a request for random numbers.
+Parameters:
+    
